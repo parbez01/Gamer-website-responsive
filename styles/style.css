@@ -418,3 +418,98 @@ border: 1px solid #FF42A5;
     font-weight: 500;
     padding-top: 30px;
 }
+
+/* responsive por mobile */
+@media screen and (max-width:425px) {
+
+    body{
+        max-width: 424px;
+        margin: 0;
+        padding: 0;
+        }
+    
+    .navbar{
+        flex-direction: column;
+        max-width: 890px;
+        height: 405px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+
+    }
+    .nav-image{
+        flex-direction: column;
+        max-width: 422px;
+        height: 225px;
+        margin-top: 5rem;
+    }
+    .navbar-title-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 1rem;
+        margin-right: 3rem;
+        margin-bottom: 200px;
+    
+    }
+
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 0 400px;
+        align-items: center;
+        padding: 20px;
+        margin-right: 40rem;
+    }
+    .banner-content{
+        margin-right: 1100px;
+    }
+    .banner-image{
+        margin-right:1080px ;
+    }
+    .online-game-title{
+        max-width: 804px;
+        margin-left: 270px;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-container{
+        grid-template-columns: 1fr;
+        margin-left:200px;
+        gap: 40px;
+        /* width: 4000px; */
+    }
+    .play-container{
+        flex-direction: column;
+        padding: 2px;
+        margin-top: -100px;
+        margin-left: 85px;
+    }
+    .play-description{
+        margin-left: 60px;
+    }
+
+    .play-image{
+        height: 50%;
+        margin-top: 100px;
+        margin-left:-100px;
+        max-width: 300px;
+    }
+    .logo-container{
+        min-height: 1000px;
+        gap: 2rem;
+        margin: auto;
+        
+    }
+    .logo-box{
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+
+        
+    }
+    .first-logo{
+        width: 300px;
+        padding: -2000px;
+    }
+}
