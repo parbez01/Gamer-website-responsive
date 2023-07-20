@@ -61,7 +61,23 @@
         text-align: center;
         font-size: 1.8rem;
         font-weight: 600;
-        text-transform:none;
+    }
+    .color-title{
+        margin-right: 1200px;
+        font-size: 2rem;
+    }
+    .banner-image img{
+      width: 300px;
+    }
+    .banner-content{
+        width: 100%;
+        margin: 0;
+    }
+    .banner-container{
+        width: 50%;
+        margin: 0;
+        background-position: 100%;
+        background-size: cover;
     }
 
     .banner-content {
