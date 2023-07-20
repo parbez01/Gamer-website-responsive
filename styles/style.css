@@ -3,13 +3,11 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 /* nav style start */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;700&display=swap');
 
@@ -24,13 +22,23 @@ body {
 }
 
 /* nav style start */
+
+.nav-container{
+    max-width: 100%;
+    height: 130px ;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
 .navbar {
+    margin: 0 auto;
+    height: 130px;
+    max-width: 1440px;
     width: 120rem;
-    background: #FFF;
     justify-content: space-around;
     align-items: center;
     height: 8.125rem;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
 
 }
@@ -83,10 +91,13 @@ body {
 }
 
 /* banner part */
+.banner-section{
+    background-color: rgba(225, 219, 219, 0.589);
+}
 .banner-container {
     min-height: 50px;
     display: flex;
-    width: 1920px;
+    width: 1440px;
     margin: 0 auto;
     justify-content: space-around;
     padding-top: 30px;
@@ -267,18 +278,23 @@ body {
     width: 1920px;
     height: 427px;
     background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-   gap: 20px;
+    gap: 20px;
 }
 
 .logo-box {
-    width: 1600px;
-    height: 50px;
+    /* width: 1600px;
+    height: 50px; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    justify-content: space-between;
-    margin-left: 150px;
+    gap: 10px;
+    margin-left: 40px;
 
+}
+#cartoon-six{
+    margin-left: 100px;
+}
+#cartoon-seven, #cartoon-eight, #cartoon-nine{
+    margin-left: 80px;
 }
 
 .first-logo {
@@ -287,26 +303,27 @@ body {
     background-color: #fff;
     padding: 15px 20px 15px 10px;
     border-radius: 50px;
-    margin-top:75px;
+    margin-top: 75px;
     gap: 20px;
-    
+
 }
-.first-logo-xy{
+
+.first-logo-xy {
     display: flex;
     align-items: center;
     background-color: #fff;
     padding: 15px 20px 15px 10px;
     border-radius: 50px;
     margin-top: 75px;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .first-logo-xy:hover {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-border: 1px solid #FF42A5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
 }
 
 .des {
@@ -378,6 +395,7 @@ border: 1px solid #FF42A5;
     justify-content: center;
     gap: 3rem;
 }
+
 .fa-twitter {
     font-size: 80px;
 }
@@ -417,99 +435,4 @@ border: 1px solid #FF42A5;
     font-size: 16px;
     font-weight: 500;
     padding-top: 30px;
-}
-
-/* responsive por mobile */
-@media screen and (max-width:425px) {
-
-    body{
-        max-width: 424px;
-        margin: 0;
-        padding: 0;
-        }
-    
-    .navbar{
-        flex-direction: column;
-        max-width: 890px;
-        height: 405px;
-        align-items: center;
-        justify-content: center;
-        padding-top: 50px;
-
-    }
-    .nav-image{
-        flex-direction: column;
-        max-width: 422px;
-        height: 225px;
-        margin-top: 5rem;
-    }
-    .navbar-title-content{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        gap: 1rem;
-        margin-right: 3rem;
-        margin-bottom: 200px;
-    
-    }
-
-    .banner-container{
-        flex-direction: column;
-        justify-content: center;
-        max-width: 0 400px;
-        align-items: center;
-        padding: 20px;
-        margin-right: 40rem;
-    }
-    .banner-content{
-        margin-right: 1100px;
-    }
-    .banner-image{
-        margin-right:1080px ;
-    }
-    .online-game-title{
-        max-width: 804px;
-        margin-left: 270px;
-        align-items: center;
-        justify-content: center;
-    }
-    .image-container{
-        grid-template-columns: 1fr;
-        margin-left:200px;
-        gap: 40px;
-        /* width: 4000px; */
-    }
-    .play-container{
-        flex-direction: column;
-        padding: 2px;
-        margin-top: -100px;
-        margin-left: 85px;
-    }
-    .play-description{
-        margin-left: 60px;
-    }
-
-    .play-image{
-        height: 50%;
-        margin-top: 100px;
-        margin-left:-100px;
-        max-width: 300px;
-    }
-    .logo-container{
-        min-height: 1000px;
-        gap: 2rem;
-        margin: auto;
-        
-    }
-    .logo-box{
-        grid-template-columns: repeat(3,1fr);
-        gap: 2rem;
-
-        
-    }
-    .first-logo{
-        width: 300px;
-        padding: -2000px;
-    }
 }
