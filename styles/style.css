@@ -190,13 +190,32 @@ p{
 
 /* online game part start */
 
-.game-title {
-    color: #0B0223;
-    font-size: 48px;
-    font-weight: 700;
+.football-container{
+    max-width: 1440px;
+    height: auto;
+    margin: 120px auto;
+    text-align: center;
+}
+.football-container>.football-blog-content{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.for-colour {
+.content-list-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 450px;
+    gap: 24px;
+}
+.content-list-container.content-sector-sector .content-sector img{
+    width: 100%;
+}
+.football-header-content{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.football-header-second-line{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -204,48 +223,21 @@ p{
     font-size: 3rem;
     font-weight: 700;
 }
-
-.game-description {
+.content-sector .footballinside-description{
     color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 15px;
-}
-
-.image-footer {
-    color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-}
-
-.online-game-title {
-    text-align: center;
-    margin-top: 6rem;
-    margin-bottom: 2.50rem;
-}
-
-.image-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 auto;
-    max-width: 87.5rem;
-    gap: 1.25rem;
-}
-
-.picture-one {
-    border-radius: 1rem;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.picture-one p {
-    margin-top: 1rem;
 }
 
 /* online game part end */
 
 /* play part start */
 
+
+.play-part{
+    height: 780px;
+    
+}
 .play-container {
 
     display: flex;
@@ -270,7 +262,7 @@ p{
     margin-left: 240px;
 }
 
-.play-colour {
+.play-headline-colour {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -292,6 +284,7 @@ p{
 }
 
 /* logo style start */
+
 .logo-container {
     width: 1920px;
     height: 427px;
@@ -300,14 +293,12 @@ p{
 }
 
 .logo-box {
-    /* width: 1600px;
-    height: 50px; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     margin-left: 40px;
-
 }
+
 #cartoon-six{
     margin-left: 100px;
 }
@@ -322,21 +313,14 @@ p{
     padding: 15px 20px 15px 10px;
     border-radius: 50px;
     margin-top: 75px;
-    gap: 20px;
-
+    gap: 5px;
+}
+.first-logo{
+    height: 70px;
+    width: 300px;
 }
 
-.first-logo-xy {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 15px 20px 15px 10px;
-    border-radius: 50px;
-    margin-top: 75px;
-    gap: 20px;
-}
-
-.first-logo-xy:hover {
+.first-logo:hover {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -368,7 +352,6 @@ p{
     color: white;
 }
 
-
 .footer-content {
     display: flex;
     justify-content: center;
@@ -377,6 +360,32 @@ p{
     padding-top: 130px;
 
 }
+.title-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.title-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.last-footer-title-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.last-footer-title-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
 
 .for-style-footer {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -453,4 +462,9 @@ p{
     font-size: 16px;
     font-weight: 500;
     padding-top: 30px;
+}
+
+
+.footer-content img{
+    margin-top: -15px;
 }
