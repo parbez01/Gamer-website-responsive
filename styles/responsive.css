@@ -70,6 +70,9 @@
         padding-left: 35px;
 
     }
+    .banner-title h2{
+        font-size: 3rem;
+    }
 
     .banner-image {
         margin-top: -60px;
@@ -246,5 +249,9 @@
     .link-content a .footer-icon{
         font-size: 35px;
     }
-
+    
 }
+
+
+
+
