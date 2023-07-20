@@ -48,94 +48,29 @@
 
     }
 
-    .banner-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        margin-right: 40rem;
+    /* banner start */
+
+    .banner-container{
+        flex-direction: column-reverse;
+        height: -1000px;
+        margin-top: 100px;
+        gap: 0px;
     }
-    .title {
-        margin-right: 1200px;
-        color: #0B0223;
-        text-align: center;
-        font-size: 1.8rem;
-        font-weight: 600;
-    }
-    .color-title{
-        margin-right: 1200px;
-        font-size: 2rem;
-    }
-    .banner-image img{
-      width: 300px;
-    }
-    .banner-content{
+    .banner-image{
         width: 100%;
         margin: 0;
     }
-    .banner-container{
-        width: 50%;
-        margin: 0;
-        background-position: 100%;
-        background-size: cover;
+    .banner-content{
+        width: 100%;
+        padding-top: 40px;
+        text-align: center;
     }
-
-    .banner-content {
-      width: 100%; 
-    }
-
-    .banner-image {
-       width: 100%; 
-    }
-
-    .online-game-title {
-        max-width: 804px;
-        margin-left: 270px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .image-container {
-        grid-template-columns: 1fr;
-        margin-left: 200px;
-        gap: 40px;
-        /* width: 4000px; */
-    }
-
-    .play-container {
-        flex-direction: column;
-        padding: 2px;
-        margin-top: -100px;
-        margin-left: 85px;
-    }
-
-    .play-description {
-        margin-left: 60px;
-    }
-
-    .play-image {
-        height: 50%;
-        margin-top: 100px;
-        margin-left: -100px;
-        max-width: 300px;
-    }
-
-    .logo-container {
-        min-height: 1000px;
-        gap: 2rem;
-        margin: auto;
+    .banner-title{
+      padding-left: 35px; 
 
     }
-
-    .logo-box {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-
-
-    }
-
-    .first-logo {
-        width: 300px;
-        padding: -2000px;
+    .banner-image{
+       margin-top: -60px;
+       margin-bottom: 50px;
     }
 }
